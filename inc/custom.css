@@ -1,0 +1,331 @@
+/* Start: All Application default Css */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Kanit", sans-serif;
+    color: #545454;
+}
+
+main {
+    /* background-image: url(../assets/images/body.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+}
+
+a {
+    text-decoration: none;
+}
+
+/* End: All Application default Css */
+
+/* Start: Top Header Button Css */
+.top-btn:hover {
+    background-color: #ffc107;
+    border: 1px solid #ffc107;
+    transition: 0.2s ease-in-out;
+}
+
+.btn-2 {
+    color: #023021;
+    box-shadow: 1px 1px 10px #ffc107;
+}
+
+.btn-2:hover {
+    background-color: #023021;
+    border: 1px solid #023021;
+    color: #ffc107;
+    transition: 0.2s ease-in-out;
+    box-shadow: 1px 1px 10px #023021;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #023021;
+    transition: 0.1s ease-in-out;
+}
+
+.nav-link {
+    color: #023021;
+}
+
+.cart {
+    color: #023021;
+    font-size: 20px;
+    filter: drop-shadow(0px 0px 12px #023021);
+}
+
+.nav-link:hover {
+    color: #023021;
+    transition: 0.1s ease-in-out;
+    filter: drop-shadow(0px 0px 12px #023021);
+    border-bottom: 1px solid #023021;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* End: Top Header Button Css */
+
+/* Start: Bannner Carousel Slider */
+swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+swiper-slide {
+    font-size: 18px;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 15%;
+}
+
+.parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+swiper-slide .title {
+    font-size: 41px;
+    font-weight: 300;
+}
+
+swiper-slide .subtitle {
+    font-size: 21px;
+}
+
+swiper-slide .text {
+    font-size: 14px;
+    max-width: 400px;
+    line-height: 1.3;
+}
+
+
+/* End: Bannner Carousel Slider */
+
+/* START: Our Services */
+.service-card {
+
+    border-radius: 12px;
+    transition: all 0.2s ease-in-out;
+}
+
+.service-card:hover {
+    box-shadow: 0px 0px 14px 0px #ccc;
+    transition: all 0.2s ease-in-out;
+    transform: scale(1.1);
+}
+
+
+/* END: Our Services */
+
+/* START: Explore Part */
+.explore-card:hover {
+    transition: 0.3s ease-in;
+    box-shadow: 0px 0px 14px 0px #ccc;
+}
+
+.btn-3 {
+    color: #023021;
+    box-shadow: 1px 1px 10px #ffc107;
+}
+
+.btn-3:hover {
+    background-color: #023021;
+    border: 1px solid #023021;
+    color: #ffc107;
+    transition: 0.2s ease-in-out;
+    box-shadow: 1px 1px 10px #023021;
+}
+
+.explore-card {
+    position: relative;
+}
+
+.top-text span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 13px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+
+/* END: Explore Part */
+
+
+/* Start: Question Part */
+.question_part {
+    background-image: linear-gradient(to bottom, #053029c7, #05362e), url(../assets/images/quBg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.review-part {
+    background-image: linear-gradient(to top, #e2ba07, #ca9e0fe1), url(../assets/images/quBgL.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+/* End: Question Part */
+
+/* START: Question Part */
+.quBtn {
+    background-color: #05362e;
+    color: #fff;
+    padding: 10px;
+    letter-spacing: 1px;
+    font-weight: 600;
+}
+
+.quBtn:hover {
+    background: #1a7e00;
+    color: #fff;
+}
+
+.quPartBtn {
+    background-color: #fff;
+    color: #05362e;
+    padding: 15px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    transition: all 0.2s ease-in-out;
+}
+
+.quPartBtn:hover {
+    background: #1a7e00;
+    color: #fff;
+    transition: all 0.2s ease-in-out;
+}
+
+.cost {
+    color: #fff;
+    font-size: 4em;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(1px, 1px) rotate(0deg);
+    }
+
+    10% {
+        transform: translate(-1px, -2px) rotate(-1deg);
+    }
+
+    20% {
+        transform: translate(-3px, 0px) rotate(1deg);
+    }
+
+    30% {
+        transform: translate(3px, 2px) rotate(0deg);
+    }
+
+    40% {
+        transform: translate(1px, -1px) rotate(1deg);
+    }
+
+    50% {
+        transform: translate(-1px, 2px) rotate(-1deg);
+    }
+
+    60% {
+        transform: translate(-3px, 1px) rotate(0deg);
+    }
+
+    70% {
+        transform: translate(3px, 1px) rotate(-1deg);
+    }
+
+    80% {
+        transform: translate(-1px, -1px) rotate(1deg);
+    }
+
+    90% {
+        transform: translate(1px, 2px) rotate(0deg);
+    }
+
+    100% {
+        transform: translate(1px, -2px) rotate(-1deg);
+    }
+}
+
+.cost:hover {
+    animation: shake 0.5s;
+    animation-iteration-count: infinite;
+}
+
+/* END: Question Part */
+
+/* START: Blog part */
+.blog-left {
+    background-image: linear-gradient(to left, rgba(129, 118, 118, 0.486), rgba(99, 93, 93, 0.247)), url(../assets/images/blog.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding: 16% 0;
+}
+
+.card {
+    background-color: #fff;
+    padding: 7%;
+    width: 80%;
+    margin: 0px auto;
+    top: 10%;
+    position: relative;
+}
+
+.category_blog {
+    position: absolute;
+    background-color: #e2ba07;
+    color: #fff;
+    padding: 3px 18px;
+    top: -23px;
+}
+
+.b_title {
+    color: #023021;
+    text-align: left;
+}
+
+.b_title:hover {
+    color: #1a7e00;
+}
+
+.blog-right {
+    position: relative;
+}
+
+.blog-right::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    border: 1px solid #ccc;
+
+}
+
+/* END: Blog part */
+
+/* START: Footer Part */
+footer {
+    background-image: linear-gradient(to right, #01221780, #0122177c), url(../assets/images/footer-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* End: Footer Part */
